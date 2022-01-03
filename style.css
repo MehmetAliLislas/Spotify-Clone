@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  padding: 0 200px;
+  background-color: black;
+}
+
+.logo {
+  width: 130px;
+  height: 40px;
+}
+
+.nav-right {
+  color: rgb(248, 248, 248, 1);
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0 14px;
+}
+
+.nav-right:hover {
+  color: #169b45;
+}
+
+.style {
+  border: 0.1px rgb(248, 248, 248, 1) solid;
+}
+
+.main {
+  padding: 100px 250px;
+  width: 100%;
+  height: 400px;
+  background-color: rgb(29, 117, 222);
+}
+
+.main-btn {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.use,
+.plans {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 500px;
+  padding: 17px 48px;
+  font-weight: 500;
+}
+
+.use {
+  background-color: black;
+  margin-right: 20px;
+}
+.plans {
+  background-color: rgb(29, 117, 222);
+  border: 2px solid white;
+}
+
+.use:hover,
+.btn-use:hover,
+.plans:hover {
+  transition: all 0.1s;
+  transform: scale(1.1);
+}
+
+.section {
+  height: 400px;
+  display: block;
+}
+
+.article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texts {
+  display: block;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 20px;
+  display: block;
+  text-align: center;
+}
+
+.lists {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-p {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 21px;
+  padding: 0px;
+}
+
+.text-alt {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.section-img {
+  height: 142px;
+  width: 142px;
+}
+
+.section-plans {
+  background-color: #efefef;
+  height: 900px;
+}
+
+.premium {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 300px;
+  height: 650px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+  margin: 10px;
+}
+
+.content {
+  padding: 25px;
+}
+
+.pay {
+  color: rgb(46, 119, 208);
+  background-color: white;
+  font-size: 14px;
+  font-weight: 900;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin: 0px 4px 10px 0px;
+  display: inline-block;
+  border: 1px solid rgb(46, 119, 208);
+}
+
+.plans {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list li {
+  text-align: left;
+  padding: 5px 0;
+  line-height: 22px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.pay-try {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-use {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 500px;
+  padding: 15px 30px;
+  font-weight: 600;
+}
+
+.textPay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+}
+.textPay:hover {
+  color: #169b45;
+}
+
+.important {
+  margin-top: 100px;
+}
+
+.content h4 {
+  font-size: 25px;
+}
+
+footer {
+  display: flex;
+  padding: 50px 200px;
+  width: 100%;
+  height: 500px;
+  background-color: black;
+}
+
+footer ul {
+  text-align: center;
+}
+
+footer h3 {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 9px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: grey;
+}
+
+footer li a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer-div {
+  display: flex;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+footer li a:hover {
+  color: #169b45;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer-logo {
+  margin-right: 10px;
+}
+
+.footer ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding-left: 190px;
+  padding-right: 190px;
+  padding-bottom: 50px;
+  margin-top: -50px;
+}
+
+.footer-end a,
+p {
+  color: #919496;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer-end a:hover {
+  color: #169b45;
+}
